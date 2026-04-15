@@ -22,7 +22,7 @@ kiwisolver==1.4.7
 matplotlib==3.7.5
 numpy==1.26.4
 packaging==26.1
-pandas==2.0.3
+pandas==2.2.0
 pillow==10.4.0
 pydantic==2.10.6
 pydantic_core==2.27.2
