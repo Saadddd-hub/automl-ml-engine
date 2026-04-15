@@ -1,3 +1,146 @@
+venv/
+__pycache__/
+*.pyc
+*.pkl
+*.joblib
+.DS_Store
+.env
+
+# ------------------------------
+
+# Python
+
+# ------------------------------
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# ------------------------------
+
+# Virtual Environment
+
+# ------------------------------
+
+venv/
+env/
+ENV/
+.venv/
+
+# ------------------------------
+
+# Environment Variables
+
+# ------------------------------
+
+.env
+.env.*
+
+# ------------------------------
+
+# Jupyter Notebook
+
+# ------------------------------
+
+.ipynb_checkpoints
+
+# ------------------------------
+
+# Logs & temp files
+
+# ------------------------------
+
+*.log
+*.tmp
+*.swp
+
+# ------------------------------
+
+# OS Files
+
+# ------------------------------
+
+.DS_Store
+Thumbs.db
+
+# ------------------------------
+
+# IDE / Editor
+
+# ------------------------------
+
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ------------------------------
+
+# Build / Distribution
+
+# ------------------------------
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ------------------------------
+
+# ML / Data Science
+
+# ------------------------------
+
+data/
+datasets/
+*.csv
+*.xlsx
+*.parquet
+*.h5
+
+# (Optional) keep sample data
+
+!data/sample/
+
+# ------------------------------
+
+# Model files
+
+# ------------------------------
+
+models/
+*.pkl
+*.joblib
+*.h5
+
+# ------------------------------
+
+# MLflow / experiment tracking
+
+# ------------------------------
+
+mlruns/
+artifacts/
+
+# ------------------------------
+
+# Cache
+
+# ------------------------------
+
+.cache/
+.pytest_cache/
+
+# ------------------------------
+
+# Coverage / Testing
+
+# ------------------------------
+
+.coverage
+htmlcov/
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
