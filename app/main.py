@@ -7,9 +7,10 @@ app = FastAPI(title="AutoML Backend")
 
 # ✅ CORS CONFIG
 origins = [
+    "https://automl-saadddd.pages.dev"
     "http://localhost:3000",   # React dev server
     "http://127.0.0.1:3000",
-    "https://automl-saadddd.pages.dev/"
+    "https://automl-saadddd.pages.dev"
 ]
 
 app.add_middleware(
